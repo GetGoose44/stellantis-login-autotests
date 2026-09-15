@@ -1,0 +1,16 @@
+{
+  "name": "stellantis-qa-test",
+  "version": "1.0.0",
+  "description": "Тестовое задание AQ: автотесты формы авторизации stellantis.autocrm.ru",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^26.5.1",
+    "typescript": "^7.0.2"
+  }
+}
